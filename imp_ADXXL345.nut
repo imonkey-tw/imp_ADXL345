@@ -21,7 +21,7 @@ class Accelerometer_adxl345 {
     ADXL345_DATARATE_12_5_HZ = 0x07 ;
     ADXL345_DATARATE_25_HZ   = 0x08 ;
     ADXL345_DATARATE_50_HZ   = 0x09 ;
-    ADXL345_DATARATE_100_HZ  = 0x0A ;# (default)
+    ADXL345_DATARATE_100_HZ  = 0x0A ; // (default)
     ADXL345_DATARATE_200_HZ  = 0x0B ;
     ADXL345_DATARATE_400_HZ  = 0x0C ;
     ADXL345_DATARATE_800_HZ  = 0x0D ;
