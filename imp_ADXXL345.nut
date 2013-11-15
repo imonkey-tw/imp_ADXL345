@@ -3,13 +3,13 @@ class Accelerometer_adxl345 {
     //   i2c parameters
     i2cPort = null;
     i2cAddress = null;
-     # Minimal constants carried over from Arduino library
+     //  Minimal constants carried over from Arduino library
 
     ADXL345_ADDRESS          = 0x53 ;
 
-    ADXL345_REG_DEVID        = 0x00  ; # Device ID
-    ADXL345_REG_DATAX0       = 0x32 ; # X-axis data 0 (6 bytes for X/Y/Z)
-    ADXL345_REG_POWER_CTL    = 0x2D  ;# Power-saving features control
+    ADXL345_REG_DEVID        = 0x00  ; // Device ID
+    ADXL345_REG_DATAX0       = 0x32 ; // X-axis data 0 (6 bytes for X/Y/Z)
+    ADXL345_REG_POWER_CTL    = 0x2D  ;//  Power-saving features control
 
     ADXL345_DATARATE_0_10_HZ = 0x00 ;
     ADXL345_DATARATE_0_20_HZ = 0x01 ;
@@ -28,10 +28,10 @@ class Accelerometer_adxl345 {
     ADXL345_DATARATE_1600_HZ = 0x0E ;
     ADXL345_DATARATE_3200_HZ = 0x0F ;
 
-    ADXL345_RANGE_2_G        = 0x00 ; # +/-  2g (default)
-    ADXL345_RANGE_4_G        = 0x01 ; # +/-  4g
-    ADXL345_RANGE_8_G        = 0x02 ;# +/-  8g
-    ADXL345_RANGE_16_G       = 0x03 ;# +/- 16g
+    ADXL345_RANGE_2_G        = 0x00 ; // +/-  2g (default)
+    ADXL345_RANGE_4_G        = 0x01 ; // +/-  4g
+    ADXL345_RANGE_8_G        = 0x02 ; // +/-  8g
+    ADXL345_RANGE_16_G       = 0x03 ; // +/- 16g
 
 
     
