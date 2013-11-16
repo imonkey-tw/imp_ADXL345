@@ -54,7 +54,7 @@ class Accelerometer_adxl345 {
         }
         else
         {
-            server.log("Invalid I2C port " + i2c_port + " specified in Pressure_BMP180::constructor.");
+            server.log("Invalid I2C port " + i2c_port + " specified in adxl345::constructor.");
         }
 
         // To communicate with the device, the datasheet wants the 7 bit address + 1 bit for direction,
